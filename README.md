@@ -1,3 +1,5 @@
+ブラウザアプリとして開発していたが、Twitter API は Browser から直接実行できない(CROSにより)、そのため開発中止。勉強になった。
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
