@@ -3,6 +3,7 @@
 	import '~/theme/custom.css';
 	import { initialize } from '@ionic/core';
 	import { onMount } from 'svelte';
+	import { client } from '~/store/client';
 
 	onMount(() => {
 		initialize({
@@ -12,6 +13,8 @@
 	});
 </script>
 
-<ion-app>
-	<slot />
-</ion-app>
+{#if client}
+	<ion-app>
+		<slot />
+	</ion-app>
+{/if}

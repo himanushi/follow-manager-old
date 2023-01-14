@@ -5,7 +5,13 @@ const config: UserConfig = {
 	plugins: [sveltekit()],
 	server: {
 		host: 'localhost',
-		port: 4000
+		port: 4000,
+		proxy: {
+			'http://localhost:4000': 'https://twitter-follow-manager.netlify.app'
+		}
+	},
+	define: {
+		global: {}
 	}
 };
 
