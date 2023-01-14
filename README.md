@@ -1,5 +1,7 @@
 ブラウザアプリとして開発していたが、Twitter API は Browser から直接実行できない(CROSにより)、そのため開発中止。勉強になった。
 
+https://scrapbox.io/kadoyau/%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%81%8B%E3%82%89%E7%9B%B4%E6%8E%A5Twitter%E3%81%AEAPI%E3%82%92%E5%8F%A9%E3%81%8F%E3%81%93%E3%81%A8%E3%81%AF%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
