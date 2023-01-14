@@ -12,6 +12,9 @@ const config = {
 			// SPA mode
 			fallback: 'index.html'
 		}),
+		alias: {
+			'~': 'src'
+		},
 		prerender: { entries: [] }
 	}
 };
